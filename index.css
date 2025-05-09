@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(249, 246, 237);
+}
+
+
+.header{
+    display: flex ;
+    align-items: center;
+    padding: 20px;
+    color: #00a2ff;
+    font-weight: 700;
+    height: 80px;
+}
+
+#heading{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    width: 1500px;
+}
+.logo{
+    height: 65px;
+}
+.logo2{
+    height: 50px;
+}
+.logo3{
+    margin: 10px 0 0 10px;
+    height: 40px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 10px 10px 0 10px;
+}
+
+.selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+    height: 200px;
+    width: 100%;
+    bottom: 0px ;
+    position: static;
+    font-size: 35px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px 0 rgb(219, 219, 219);
+    color: #5784fe;
+}
+.footer{
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px ;
+    position: absolute;
+    bottom: 0%;
+    background-color: #00a2ff;
+    color: white;
+}
+
+.image_slider{
+    width: 100% ;
+    height: 300px ;
+    position: relative ;
+}
+
+.slide{
+    background: cover;
+    height: 300px;
+    width: 100%;
+    transition: transform 0.5s linear;
+    position: absolute;
+    width: 100%;
+}
+
+
+.typewriter {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #00bfff;
+    width: 0;
+    padding: 10px;
+    text-align: center;
+    color: #00bfff;
+    animation:
+      typing 3s steps(26) 1s 1 normal both,
+      blink 0.7s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 33ch }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  
+
